@@ -36,7 +36,7 @@ if but:
     
             if int(size) == int(m):
                 with open('test.jpg', "rb") as f:
-                    st.success("Click  download in KB")
+                    st.success(f"Click  download in {a}KB")
                     st.download_button("Download Image", f, file_name="resized.jpg")   
                   
                 break
