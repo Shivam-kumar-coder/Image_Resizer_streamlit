@@ -49,4 +49,12 @@ if but:
                 break 
     except Exception as e:
         st.write("SOMETHING ERROR PLEASE REFRESH TO TRY AGAIN")
-
+        
+hide_menu = """
+<style>
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+</style>
+"""
+st.markdown(hide_menu, unsafe_allow_html=True)
