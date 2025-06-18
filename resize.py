@@ -5,7 +5,7 @@ import numpy as np
 
 st.title("Image Resizer App")
 a=st.number_input("eneter your covert size")
-ty=st.selectbox("enter your type",["MB","KB"])
+ty=st.selectbox("enter your type",["KB","MB"])
 img=st.file_uploader("Upload Image")
 but=st.button("Convert")
 if ty=="KB":
